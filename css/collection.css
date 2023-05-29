@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Karla:wght@300&family=Lato&family=Montserrat:wght@200&family=Mukta&family=Open+Sans&family=Oswald&family=Quicksand:wght@300&family=Roboto+Serif:wght@200&family=Source+Sans+Pro:ital@0;1&family=Tajawal&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Karla:wght@300&family=Lato&family=Montserrat:wght@200&family=Mukta&family=Open+Sans&family=Oswald&family=Quicksand:wght@300&family=Roboto+Serif:wght@200&family=Source+Sans+Pro&family=Tajawal&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+}
+/* Navbar Style */
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed ; */
+    width: 100%;
+    margin-top: 20px;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.div-item{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Roboto Serif', serif;
+}
+.div-item:hover{
+    opacity: 0.4;
+    transition: 0.6s;
+}
+/* Pub Style */
+.pub{
+    background-image: url('../img/Pull-Bear-ropa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+    margin-top: 30px;
+}
+.p-pub{
+    text-align: center;
+    color: white;
+    padding: 90px 0;
+    font-size: 45px;    
+    font-family: 'Inter', sans-serif;
+}
+.p1-pub{
+    text-align: center;
+    color: rgb(255, 249, 249);
+    margin-top: -65px;
+    font-size: 29px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Collection Style */
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 20px;
+}
+.prod-image{
+    width: 80%;
+    height: 60%;
+}
+.product{
+    align-self: flex-start;
+    margin: 40px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid grey;
+    display: inline-block;
+    height: 470px;
+    width: 25%;
+    
+}
+.prod-btn{
+    width: auto ;
+    height: 38px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.prod-btn:hover{
+    color: white;
+    background-color: #212529;
+    cursor: pointer;
+    transition: 0.6s;
+}
+span{
+    font-size: larger;
+}
+.prod-name{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+

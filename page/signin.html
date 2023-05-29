@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P&B | login Page</title>
+    <meta name="description" content="Sign up now!">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="icon" type="image/jpg" href="../img/favicon.jpg">
+  </head>
+  <body>
+    <main class="container">
+      <article class="signup--block grid">
+        <div>
+          <hgroup>
+            <h1 style="font-size: 30px;">Create an account with P&B</h1>
+            <h2>Sign up now and join us !</h2>
+          </hgroup>
+          <form method="GET" action="//t.ly/_-VX" id="signup-form">
+            <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email" required>
+            <div class="grid signup--grid">
+                <input type="text" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                <input type="text" name="lastname" placeholder="Last Name" aria-label="Last Name" required>
+            </div>
+            <div class="grid signup--grid">
+                <input type="password" name="password" id="password" placeholder="Password" aria-label="Password" minlength="8"  autocomplete="current-password" required>
+                <input type="password" name="password-confirm" id="password-confirm" minlength="8" placeholder="Confirm Password" required>
+            </div>
+            <fieldset>
+              <label for="tos">
+                <input type="checkbox" role="checkbox" id="tos" name="tos">
+                I agree to the terms of services.
+              </label>
+            </fieldset>
+            <button type="submit" class="contrast"><a href="../page/shop.html" class="href">Create an account</a></button>
+          </form>
+        </div>
+        <div class="signup--bg"></div>
+      </article>
+    </main>
+    <!-- <script defer src="base.js"></script> -->
+  </body>
+</html>

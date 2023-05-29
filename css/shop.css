@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Karla:wght@300&family=Lato&family=Montserrat:wght@200&family=Mukta&family=Open+Sans&family=Oswald&family=Quicksand:wght@300&family=Roboto+Serif:wght@200&family=Source+Sans+Pro&family=Tajawal&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+}
+
+/* Navbar Style */
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed ; */
+    width: 100%;
+    margin-top: 20px;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.div-item{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Roboto Serif', serif;
+}
+.div-item:hover{
+    opacity: 0.4;
+    transition: 0.6s;
+}
+
+/* Section Style */
+.btn{
+    width: 210 ;
+    height: 38;
+}
+
+.intro{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 20px;
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    padding: 90px 0;
+    font-size: 45px;    
+    font-family: 'Roboto Serif', serif;
+}
+.para{
+    text-align: center;
+    color: rgb(242, 232, 232);
+    margin-top: -55px;
+    font-size: 25px;
+    font-family: 'Roboto Serif', serif;
+}
+
+/* Product Style */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 20px;
+    
+}
+.product {
+    align-self: flex-start;
+    margin: 40px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid grey;
+    display: inline-block;
+    height: 500px;
+    width: 25%;
+}
+.details{
+    background-color: white;
+}
+.prod-name{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.prod-img{
+    width: 80%;
+    height: 53%;
+}
+.submit{
+    width: auto;
+    height: 38px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+span{
+    font-size: larger;
+}
+.submit:hover{
+    color: white;
+    background-color: #212529;
+    cursor: pointer;
+    transition: 0.6s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
